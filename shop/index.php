@@ -24,6 +24,9 @@ use Psr\Http\Message\ResponseInterface as Response;
 
 		die();
 	}
+
+	require "controller/functions.php";
+	
 	$app->run();
 
 ?>
