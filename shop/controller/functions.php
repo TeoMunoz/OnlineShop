@@ -7,7 +7,7 @@
  * @OA\Post(
  *  path="/Authenticate",
  *  summary="Here you can authenticate yourself using a password",
- *  tags={""},
+ *  tags={"Authenticate"},
  *  requestBody=@OA\RequestBody(
  *      request="/Authenticate",
  *      required=true,
@@ -259,9 +259,9 @@
 
 /**
  * @OA\Get(
- *  path="/Category/{category_id}",
- *  summary="update the category",
- *  tags={category""},
+ *  path="/Product/{product_id}",
+ *  summary="update the product",
+ *  tags={"product"},
  *  requestBody=@OA\RequestBody(
  *      request="/RequestBody",
  *      required=true,
@@ -274,7 +274,7 @@
  * )
  * )
  * ),
- * @OA\Response(response="200", description="Successfully createtd category Status 200"))
+ * @OA\Response(response="200", description="Successfully createtd product Status 200"))
  * @OA\Response(response="400", description="No data requested Status 400"))
  * @OA\Response(response="500", description="Internal server error Status 500"))
  * )
